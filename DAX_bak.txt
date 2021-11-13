@@ -1,0 +1,3 @@
+
+
+Cat_First_Date_Avg_Daily_Steps = CALCULATE(AVERAGE(Tracker_Data[Daily_Steps]),FIRSTDATE(Tracker_Data[Activity_Date]), Pet_Data[Dog/Cat]="Cat")
